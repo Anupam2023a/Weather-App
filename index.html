@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+   <div class="container">
+    <div class="search-box">
+        <i id="e" class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="enter your location" style="color:white">
+        <button class="fa-solid fa-magnifying-glass"></button>
+    </div>
+    <div class="not-found">
+        <img src="./images/404.png" alt="">
+        <p>Oops! Invalid Location</p>
+    </div>
+    <div class="weather-box">
+        <img src="" alt="">
+        <p class="temprature"></p>
+        <p class="description"></p>
+    </div>
+    <div class="weather-details">
+        <div class="humidity">
+            <i class="bx bx-water"></i>
+            <div class="text">
+                <span></span>
+                <p>Humidity</p>
+            </div>
+        </div>
+        <div class="wind">
+            <i class="bx bx-wind"></i>
+            <div class="text">
+                <span></span>
+                <p>Wind</p>
+            </div>
+        </div>
+    </div>
+   </div>
+     <script src="https://kit.fontawesome.com/7c8801c017.js"
+    crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+</body>
+
+</html>
